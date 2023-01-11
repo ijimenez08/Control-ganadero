@@ -11,9 +11,7 @@
 <body>
     <header>
         <h1>Control Ganadero</h1>
-        <div id="sidebar">
-            <div class="toggle-btn">
-            </div>   
+        <div id="sidebar" class="grid">
             <ul>
                 <li>Inicio</li>
                 <li>Informacion del ganado</li>
@@ -21,26 +19,22 @@
                 <li>litraje</li>
             </ul>        
         </div>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <label for="idganado">Num. Ganado</label>
-                    
-                    <label for="idlitro">Cantidad de litros</label>
-                    <label for="id"></label>
-                    <label for="idpropietario">Pertenece A: </label>
+    </header>
+    <section>
+        <div id="navibar" class="container">
+            <div class="row" id="infobar">
+                <label for="idganado">Num. Ganado</label>
+                <label for="idlitro">Cantidad de litros</label>
+                <label for="idpropietario">Pertenece A: </label>
+                <div class="row" id="infostado" >                    
+                    <textarea name="info1" id="mss" cols="30" rows="10"></textarea>
+                    <textarea name="info2" id="mss" cols="30" rows="10"></textarea>
+                    <textarea name="info3" id="mss" cols="30" rows="10"></textarea>
                 </div>
             </div>
-        </section>
-    </header>
-    
-
-    
-        
-        <div>
-
         </div>
-    
+    </section>
+
     <script src="main.js"></script>
 
 </body>

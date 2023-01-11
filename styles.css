@@ -2,7 +2,46 @@
     margin: 0;
     padding: 0;
 }
+body
+{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+.grid
+{
+    display: grid;
+}
+#navibar
+{
+    align-items: center;
+    
+}
+#mss
+{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    margin: auto;
+}
+header
+{
+    background-color: rgb(143, 143, 143);
+}
+label
+{
+    border: 2px solid rgb(0,0,0);
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    margin: 15px;
+    cursor: pointer;
+}
 #sidebar
 {
     position: fixed;
@@ -12,6 +51,10 @@
 }
 #sidebar ul li
 {
-    color: rgba(230, 230, 230, 0);
+    color: rgba(230, 230, 230, .9);
     text-align: center;
+    padding: 15px 10px;
+    list-style: none;
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
 }
+
