@@ -14,23 +14,42 @@
         <div id="sidebar" class="grid">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li>Informacion del ganado</li>
+                <<li><a href="ganado.html"> Informacion del ganado</a></li>
                 <li>insumos</li>
                 <li>litraje</li>
                 <li><a href="agrgarinfo.html">Produccion Semanal</a></li>
             </ul>        
         </div>
     </header>
-       <main>
-        <form>
-            <label for="ltsemanl">Produccion Semanal</label>
-            <input type="text" name="ltsemanal" id="prsemanal" required>
-            <label for="Ganancia semanal">Ganancia Semanal</label>
-            <input type="text" name="gtsemal" id="Sganancia">
-
-
-
-        </form>
+        <main>
+        <div class="grid">
+            <div>
+                <form>
+                    <label for="ltsemanl">Produccion Semanal</label>
+                    <input type="text" name="ltsemanal" id="prsemanal" required>
+                    <label for="Ganancia semanal">Ganancia Semanal</label>
+                    <input type="text" name="gtsemal" id="Sganancia" required>
+                </form>
+                
+            </div>
+            <button id="btnadd" class="btn-add" >Agregar Informacion</button>
+        </div>
+        <div>
+            <table id="v-info" class="v-grid">
+                <thead>
+                    <tr>
+                        <th>Semanal</th>
+                        <th>produccion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+           
        </main>
 </body>
 </html>
