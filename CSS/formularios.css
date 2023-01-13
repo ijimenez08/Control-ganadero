@@ -1,0 +1,12 @@
+form
+{
+    align-items: center;
+}
+
+form label, form legend
+{
+    align-items: center;
+    font-size: 15px;
+    border: none;
+  
+}
