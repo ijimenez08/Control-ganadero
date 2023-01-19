@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informacion del Ganado</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/hoja.css">
     
 </head>
 <body>
     <header>
         <h1>Control Ganadero</h1>
-       <!-- <div id="sidebar" class="grid">
+        <div id="sidebar" class="grid">
             <ul> 
                 <li><a href="index.html">Inicio</a></li>
                 <<li><a href="ganado.html"> Informacion del ganado</a></li>
@@ -19,15 +20,15 @@
                 <li>litraje</li>
                 <li><a href="agrgarinfo.html">Produccion Semanal</a></li>
             </ul>   
-             -->
+            
         </div>
     </header>
     <div class="grid">
         <div>
             <label for="">Finca</label>
-            <textarea name="tx-hacienda" id="txthoja" cols="10" rows="1"></textarea>
+            <textarea name="tx-hacienda" class="finca" id="txthoja" cols="10" rows="1"></textarea>
             <label for="">Num. ganado</label>
-            <input type="number" id="numganado" class="txt-buscar">
+            <input type="text" id="numganado" class="txt-buscar">
             <button class="button" id="buscar">buscar</button>
             <label for="">Propietario</label>
             <textarea name="tx-quien" id="txthoja" cols="10" rows="1"></textarea>
