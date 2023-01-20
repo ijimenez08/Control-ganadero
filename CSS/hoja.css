@@ -27,16 +27,27 @@ button
 
 #txthoja
 {
-    border: 5px;
+    border: 6px;
     border-color: black;
-    margin: 5px;
-   
-    width: 70px;
+    margin: auto;
+    padding: 4px;
+    resize: none;
+    width: 100px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: beige;
     resize: none;
     outline: none;
     font-size: 12px;
     justify-content: center;
+
     
+}
+#lbinfo
+{
+    margin-top: 2%;
+    margin: 2%;
+   
+    text-decoration:solid;
+
+
 }
