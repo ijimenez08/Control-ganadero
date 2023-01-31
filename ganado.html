@@ -12,20 +12,83 @@
 </head>
 <body>
     <header>
-        <h1>Control Ganadero</h1>
-        <div id="sidebar" class="grid">
-            <ul> 
-                <li><a href="index.html">Inicio</a></li>
-                <<li><a href="ganado.html"> Informacion del ganado</a></li>
-                <li>insumos</li>
-                <li>litraje</li>
-                <li><a href="agrgarinfo.html">Produccion Semanal</a></li>
-            </ul>   
-            
+        <div id="sidebar" class="card">
+            <nav>
+                <a href="#" class="logo">Control Ganadero</a>
+                <input type="checkbox" name="" id="toggle">
+                <label for="toggle"><i class="material-icons">Menu</i></label>
+                <div class="menu">
+                    <ul> 
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="ganado.html"> Informacion del ganado</a></li>
+                        <li>insumos</li>
+                        <li>litraje</li>
+                        <li><a href="agrgarinfo.html">Produccion Semanal</a></li>
+                    </ul> 
+                </div>
+            </nav>      
+        </div>
+    
         </div>
     </header>
-    <div class="content">
-        <div class="container">
+
+    <div class="parent">
+        <div class="div1"> 
+            <label for="">Finca</label>
+            <textarea disabled  name="tx-hacienda" class="finca" id="txthoja" cols="10" rows="1"></textarea>
+            <label for="">Num. ganado</label>
+            <input type="text" id="numganado" class="txt-buscar">
+            <button class="btn-add" id="buscar">buscar</button>
+            <label for="">Propietario</label>
+            <textarea disabled name="tx-quien" id="txthoja" cols="10" rows="1"></textarea>
+            <label for="">Nombre</label>
+            <textarea disabled name="tx-nombre" id="txthoja" cols="10" rows="1"></textarea>
+        </div>
+        <div class="div2"> 
+            <label for="nacimiento">Nacimiento</label>
+            <textarea disabled name="tx-nacimiento" id="txthoja" cols="10" rows="1"></textarea>
+            <label for="">Entada al Pastoreo</label>
+            <textarea disabled name="tx-pastoreo" id="txthoja" cols="10" rows="1"></textarea>
+            <label for="">Ultimo Parto</label>
+            <textarea disabled name="tx-parto" id="txthoja" cols="10" rows="1"></textarea>
+            <label for="">Ultimo Aborto</label>
+            <textarea disabled name="tx-aborto" id="txthoja" cols="10" rows="1"></textarea>
+            <label for="">Ultimo Celo</label>
+            <textarea disabled name="tx-celo" id="txthoja" cols="10" rows="1"></textarea>
+            <label for="">Ultimo Embrion</label>                
+            <textarea disabled name="tx-embrion" id="txthoja" cols="10" rows="1"></textarea>
+            <label for="">Fecha de Preñez</label>
+            <textarea disabled name="tx-prenez" id="txthoja" cols="10" rows="1"></textarea>
+            <label for="">dias Preñez</label>
+            <textarea disabled name="tx-dprenez" id="txthoja" cols="10" rows="1"></textarea>
+            <label for="">Parto Estimado</label>
+            <textarea disabled name="tx-festimado" id="txthoja" cols="10" rows="1"></textarea>
+
+        </div>
+        <div class="div3"> 
+            <label for="">Partos</label>
+            <label for="">Machos</label>
+            <label for="">Hembras</label>
+            <label for="">Abortos</label>
+            <label for="">Fecha de Pesaje</label>
+            <label for="">Peso</label>
+            <div>
+                <textarea disabled name="tx-parto" id="txthoja" cols="10" rows="1"></textarea>
+                <textarea disabled name="tx-macho" id="txthoja" cols="10" rows="1"></textarea>
+                <textarea disabled name="tx-hembra" id="txthoja" cols="10" rows="1"></textarea>
+                <textarea disabled name="tx-aborto" id="txthoja" cols="10" rows="1"></textarea>
+                <textarea disabled name="tx-fpeso" id="txthoja" cols="10" rows="1"></textarea>
+                <textarea disabled name="tx-tpeso" id="txthoja" cols="10" rows="1"></textarea>
+
+            </div>
+            
+
+        </div>
+    </div>
+
+
+   <!-- <div class="content">
+        <div  class="item">
             <label for="">Finca</label>
             <textarea disabled  name="tx-hacienda" class="finca" id="txthoja" cols="10" rows="1"></textarea>
             <label for="">Num. ganado</label>
@@ -37,24 +100,24 @@
             <textarea disabled name="tx-nombre" id="txthoja" cols="10" rows="1"></textarea>
             
         </div>
-        <div>
+        <div  class="item">
             <label for="nacimiento">Nacimiento</label>
             <textarea disabled name="tx-nacimiento" id="txthoja" cols="10" rows="1"></textarea>
             <label for="">Entada al Pastoreo</label>
             <textarea disabled name="tx-pastoreo" id="txthoja" cols="10" rows="1"></textarea>
-                <div>
+                <div class="item">
                     <label for="">Ultimo Parto</label>
                     <textarea disabled name="tx-parto" id="txthoja" cols="10" rows="1"></textarea>
                     <label for="">Ultimo Aborto</label>
                     <textarea disabled name="tx-aborto" id="txthoja" cols="10" rows="1"></textarea>
                 </div>
-                <div>
+                <div class="item">
                     <label for="">Ultimo Celo</label>
                     <textarea disabled name="tx-celo" id="txthoja" cols="10" rows="1"></textarea>
                     <label for="">Ultimo Embrion</label>                
                     <textarea disabled name="tx-embrion" id="txthoja" cols="10" rows="1"></textarea>
                 </div>
-                <div>
+                <div class="item">
                     <label for="">Fecha de Preñez</label>
                     <textarea disabled name="tx-prenez" id="txthoja" cols="10" rows="1"></textarea>
                     <label for="">dias Preñez</label>
@@ -82,7 +145,7 @@
         
 
     </div>
-
+-->
     
 </body>
 </html>

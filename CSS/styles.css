@@ -45,12 +45,6 @@ body
     outline: none;
     margin: auto;
 }
-header
-{
-    background-color: rgb(143, 143, 143);
-    
-   
-}
 
 label
 {
@@ -61,21 +55,71 @@ label
     margin: 15px;
     cursor: pointer;
 }
-#sidebar
+.card
 {
-    position: fixed;
-    width: 150px;
-    height: 100%;
-    background: rgb(0, 0, 0, 0.90);
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    
 }
-#sidebar ul li
+nav
 {
-    color: rgba(230, 230, 230);
-    text-align: center;
-    padding: 15px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303841;
+    padding: 1rem 1.5rem;
+    border-radius: 0.4rem;
+    padding-block: 15px;
+}
+nav .logo
+{
+    font-weight: 700;
+}
+nav ul
+{
     list-style: none;
-    border-bottom: 1px solid rgba(100, 100, 100);
+    display: flex;
+    gap: 2rem;
 }
+nav a
+{
+    text-decoration: none;
+    color: white;
+}
+nav #toggle, nav label
+{
+    display: none;
+}
+
+@media(max-width: 40.625em)
+{
+    nav .card
+    {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    nav ul
+    {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    nav label
+    {
+        display: inline-flex;
+        color: white;
+        cursor: pointer;
+    }
+    nav #toggle:checked ~.menu
+    {
+        height: 100%;
+    }
+}
+
 button
 {
     margin: auto;
@@ -89,22 +133,32 @@ button
     border-radius: 15px;
     cursor:pointer;
 }
-
-.card 
+.btn-add
 {
-    max-width: 300px;
-    min-height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 500px;
-    height: 300px;
-    padding: 35px;
-    border: 1px solid rgba(255, 255, 255, .25);
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.45);
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(15px);
-  }
- 
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:9px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #154682;
+}
+.btn-add:hover 
+{
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.btn-add:active 
+{
+	position:relative;
+	top:1px;
+}
+
 
