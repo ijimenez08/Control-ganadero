@@ -12,14 +12,9 @@ button
    
     cursor:pointer;
 }
-/*label
-{
-    font-family: Arial, Helvetica, sans-serif;
-    
-}*/
 .content
 {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
@@ -44,7 +39,7 @@ button
 
 
   
-.parent 
+/*.parent 
 {
     flex: 1 1 150px;
     justify-content: center;
@@ -55,30 +50,37 @@ button
     backdrop-filter: blur(10px);
 
 }
-    
-.div1
-{ 
-    /*grid-area: 1 / 1 / 6 / 2; */
-    align-self: auto;
-    justify-content: center;
-
-}
-.div2
+    */
+.parent 
 {
-    grid-area: 1 / 2 / 5 / 6;
-
-}
-
-.div3
-{
-    /*grid-area: 5 / 2 / 6 / 6;*/
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    align-items: center;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    place-items: center;
+    height: 50px;
+    backdrop-filter: blur(10px);
 
 }
-
+  
+  .box 
+{
+    display: inline-block;
+    grid-template-columns: repeat(2, 5px);
+    width: 500px;
+    height: auto;
+    background-color: lightblue;
+    margin: auto;
+    
+}
+label
+{
+    width: 10px;
+    height: auto;
+    margin: auto;
+}
+  
 
 #txthoja
 {
