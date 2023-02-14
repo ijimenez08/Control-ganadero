@@ -9,22 +9,19 @@ button
     background: rgb(139, 139, 141);
     border:none;
     border-radius: 10px;
-   
     cursor:pointer;
 }
+
 .parent
 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     flex-wrap: wrap;
     flex-direction: row;
     background-color: rgb(80, 185, 255, 0.50);
     box-sizing: border-box;
-    width: 80%;
-    padding: 1%;
-    justify-content: center;
-    align-items: center;
+    width: 90%;
     padding: 5px;
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 25px;
@@ -47,7 +44,7 @@ button
     backdrop-filter: blur(10px);
 
 }
-    
+     
 .parent 
 {
     display: grid;
@@ -60,17 +57,7 @@ button
     backdrop-filter: blur(10px);
 
 }
-  */
-  .box 
-{
-    display: inline-block;
-    grid-template-columns: repeat(2, 5px);
-    width: 500px;
-    height: auto;
-    background-color: lightblue;
-    margin: auto;
-    
-}
+ */
 
 /*label
 {
@@ -82,27 +69,23 @@ button
 
 #txthoja
 {
+    display: inline-block;
+    padding: 5px;
     border: 6px;
     border-color: black;
     margin: auto;
-    padding: 4px;
     resize: none;
     width: 100px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(194, 194, 34);
+    background-color: rgb(255, 255, 255);
     resize: none;
     outline: none;
     font-size: 12px;
-    justify-content: center;
-
-    
 }
+
 #lbinfo
 {
     margin-top: 2%;
     margin: 2%;
-   
     text-decoration:solid;
-
-
 }
