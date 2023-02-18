@@ -1,9 +1,9 @@
 #buscar
 {
-    margin: 5px;
+    margin: 7px;
     margin-left: 25px;
     width: 40%;
-    padding: 5px;
+    padding: 7px;
     font-size: 15px;
     font-weight: bold;
     color:white;
@@ -14,9 +14,10 @@
 
 .txt-buscar
 {
-    width: 70px;
+    width: 75px;
     font-size: 15px;
     text-align: left;
+    padding: 5px;
 
     
 }
