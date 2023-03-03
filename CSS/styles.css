@@ -159,3 +159,20 @@ body
 
 }
 
+footer
+{
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 15px;
+    text-decoration: none;
+    color: rgb(41, 27, 27);
+
+}
+
+.llamado
+{
+    background: #282f40;
+    display: flex;
+}
+
